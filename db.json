@@ -1,0 +1,53 @@
+{
+  "pizza": [
+    {
+      "id": "2",
+      "name": "pizza2",
+      "prize": "400",
+      "image": "https://images.pexels.com/photos/25695601/pexels-photo-25695601/free-photo-of-top-view-of-slices-of-pizza-on-a-plate.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "Pizza 2 description"
+    },
+    {
+      "id": "3",
+      "name": "Pizza 3",
+      "prize": "45k",
+      "image": "https://images.pexels.com/photos/2233348/pexels-photo-2233348.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "Pizza 3 description"
+    },
+    {
+      "id": "4",
+      "name": "pizza 4",
+      "prize": "459",
+      "image": "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "pizza 4 description"
+    },
+    {
+      "id": "5",
+      "name": "Pizza 5",
+      "prize": "452",
+      "image": "https://images.pexels.com/photos/4109083/pexels-photo-4109083.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "Pizaa 5 description"
+    },
+    {
+      "id": "6",
+      "name": "Pizza 6",
+      "prize": "475",
+      "image": "https://images.pexels.com/photos/18431672/pexels-photo-18431672/free-photo-of-pizza-margherita-cut-in-four.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "Pizza 6 description"
+    },
+    {
+      "id": "7",
+      "name": "Pizaa 7",
+      "prize": "645",
+      "image": "https://media.istockphoto.com/id/153444470/photo/pizza.jpg?b=1&s=612x612&w=0&k=20&c=thGXCculzhgVYulZZ8AXS38xGOJVgrYaReCC24Eq158=",
+      "description": "Pizaa 7 description"
+    },
+    {
+      "id": "bff7",
+      "name": "pizza 9",
+      "prize": "997",
+      "image": "https://images.pexels.com/photos/1049620/pexels-photo-1049620.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "tasty"
+    }
+  ]
+}

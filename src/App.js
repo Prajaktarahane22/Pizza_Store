@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import AddNav from "./componants/AddNav";
+import AddPizza from "./componants/AddPizza";
+import PizzaList from "./componants/PizzaList";
+import UpdatePizza from "./componants/UpdatePizza";
+import {BrowserRouter, Route , Routes} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Home from "./componants/Home";
+import About from "./componants/About";
+
+
+function App(){
+return (
+    <>
+    
+      <h1>Welcome to My Projects</h1>
+     
+        
+     <AddNav/>
+     
+     <BrowserRouter>
+     <Routes>
+     
+  
+
+      <Route path="/home" element={<Home/>}/>
+      <Route path="/pizza-list" element={<PizzaList/>}/>
+      <Route path="/addPizza" element={<AddPizza/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/update-pizza/:id" element={<UpdatePizza/>}/>
+
+
+
+
+
+
+      </Routes>
+     </BrowserRouter>
+      </>
+  )
+  
 }
 
 export default App;
+
